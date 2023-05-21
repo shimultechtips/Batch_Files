@@ -1,1 +1,0 @@
-start https://www.gimp.org/downloads/

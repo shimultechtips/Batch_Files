@@ -1,1 +1,0 @@
-start https://desktop.telegram.org/https://zoom.us/download

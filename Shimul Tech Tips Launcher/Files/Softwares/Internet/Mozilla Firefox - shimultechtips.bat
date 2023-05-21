@@ -1,1 +1,0 @@
-start https://www.mozilla.org/en-US/firefox/all/
