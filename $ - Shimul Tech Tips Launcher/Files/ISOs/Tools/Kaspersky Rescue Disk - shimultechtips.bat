@@ -1,0 +1,1 @@
+start https://www.kaspersky.com/downloads/free-rescue-disk

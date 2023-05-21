@@ -1,0 +1,1 @@
+start https://github.com/pbatard/rufus/releases
