@@ -1,0 +1,1 @@
+start https://windows-7-activator.com/d/Activator2-8.php
