@@ -1,0 +1,607 @@
+<start>
+	<files>
+		<files name="Drivers">
+			<file name="Canon Printer Drivers - shimultechtips">
+				<path>Files\Drivers\Canon Printer Drivers - shimultechtips.bat</path>
+			</file>
+			<file name="Epson Printer Drivers - shimultechtips">
+				<path>Files\Drivers\Epson Printer Drivers - shimultechtips.bat</path>
+			</file>
+			<file name="Epson Scanner Drivers - shimultechtips">
+				<path>Files\Drivers\Epson Scanner Drivers - shimultechtips.bat</path>
+			</file>
+			<file name="HP Printer Drivers - shimultechtips">
+				<path>Files\Drivers\HP Printer Drivers - shimultechtips.bat</path>
+			</file>
+			<file name="Intel RST Driver - shimultechtips">
+				<path>Files\Drivers\Intel RST Driver - shimultechtips.bat</path>
+				<icon>Icons\Intel Driver.ico</icon>
+			</file>
+			<file name="Snappy Driver Installer - shimultechtips">
+				<path>Files\Drivers\Snappy Driver Installer - shimultechtips.bat</path>
+				<icon>Icons\SDI.ico</icon>
+				<runcount>1</runcount>
+				<rundate>2023/05/21 12:10:55</rundate>
+			</file>
+			<file name="USB 3.0 Drivers For 8 Series+ - shimultechtips">
+				<path>Files\Drivers\USB 3.0 Drivers For 8 Series+ - shimultechtips.bat</path>
+				<icon>Icons\Intel Driver.ico</icon>
+			</file>
+		</files>
+		<files name="ISOs">
+			<files name="$ - ISO Tools">
+				<files name="Bootable USB Creator">
+					<files name="Easy2Boot">
+						<file name="E2B DPMS - shimultechtips">
+							<path>Files\ISOs\$ - ISO Tools\Bootable USB Creator\Easy2Boot\E2B DPMS - shimultechtips.bat</path>
+							<icon>Icons\e2b.ico</icon>
+						</file>
+						<file name="MPI Tool Pack - shimultechtips">
+							<path>Files\ISOs\$ - ISO Tools\Bootable USB Creator\Easy2Boot\MPI Tool Pack - shimultechtips.bat</path>
+						</file>
+						<file name="RMPrepUSB - shimultechtips">
+							<path>Files\ISOs\$ - ISO Tools\Bootable USB Creator\Easy2Boot\RMPrepUSB - shimultechtips.bat</path>
+							<icon>Icons\RMPrepUSB.ico</icon>
+						</file>
+					</files>
+					<file name="balenaEtcher - shimultechtips">
+						<path>Files\ISOs\$ - ISO Tools\Bootable USB Creator\balenaEtcher - shimultechtips.bat</path>
+						<icon>Icons\balenaEtcher.ico</icon>
+					</file>
+					<file name="Rufus - shimultechtips">
+						<path>Files\ISOs\$ - ISO Tools\Bootable USB Creator\Rufus - shimultechtips.bat</path>
+						<icon>Icons\Rufus.ico</icon>
+					</file>
+					<file name="Ventoy - shimultechtips">
+						<path>Files\ISOs\$ - ISO Tools\Bootable USB Creator\Ventoy - shimultechtips.bat</path>
+					</file>
+				</files>
+				<file name="7-ZipPortable - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\7-ZipPortable - shimultechtips.bat</path>
+					<icon>Icons\7-zip.ico</icon>
+				</file>
+				<file name="BOOTICEx64Portable - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\BOOTICEx64Portable - shimultechtips.bat</path>
+				</file>
+				<file name="BOOTICEx86Portable - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\BOOTICEx86Portable - shimultechtips.bat</path>
+				</file>
+				<file name="EasyBCD - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\EasyBCD - shimultechtips.bat</path>
+					<icon>Icons\EasyBCD.ico</icon>
+				</file>
+				<file name="EasyUEFI - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\EasyUEFI - shimultechtips.bat</path>
+				</file>
+				<file name="Generation 2 ISO Links - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\Generation 2 ISO Links - shimultechtips.txt</path>
+					<runcount>1</runcount>
+					<rundate>2023/05/21 12:11:04</rundate>
+				</file>
+				<file name="gimagex - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\gimagex - shimultechtips.bat</path>
+				</file>
+				<file name="Microsoft Products Download Website - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\Microsoft Products Download Website - shimultechtips.bat</path>
+				</file>
+				<file name="Setup Windows From HDD - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\Setup Windows From HDD - shimultechtips.bat</path>
+				</file>
+				<file name="UltraISO - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\UltraISO - shimultechtips.bat</path>
+				</file>
+				<file name="Windows and Office Genuine ISO Verifier - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\Windows and Office Genuine ISO Verifier - shimultechtips.bat</path>
+					<icon>Icons\Windows And Office Genuine ISO Verifier.ico</icon>
+				</file>
+				<file name="WinNTSetup - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\WinNTSetup - shimultechtips.bat</path>
+					<icon>Icons\WinNTSetup.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/04/11 16:13:29</rundate>
+				</file>
+				<file name="WinToHDD - shimultechtips">
+					<path>Files\ISOs\$ - ISO Tools\WinToHDD - shimultechtips.bat</path>
+				</file>
+			</files>
+			<files name="Androids">
+				<file name="Android X86 - shimultechtips">
+					<path>Files\ISOs\Androids\Android X86 - shimultechtips.bat</path>
+				</file>
+				<file name="BlissOS - shimultechtips">
+					<path>Files\ISOs\Androids\BlissOS - shimultechtips.bat</path>
+				</file>
+				<file name="PhoenixOS - shimultechtips">
+					<path>Files\ISOs\Androids\PhoenixOS - shimultechtips.bat</path>
+				</file>
+				<file name="PrimeOS - shimultechtips">
+					<path>Files\ISOs\Androids\PrimeOS - shimultechtips.bat</path>
+				</file>
+			</files>
+			<files name="Linuxs">
+				<file name="Kali - shimultechtips">
+					<path>Files\ISOs\Linuxs\Kali - shimultechtips.bat</path>
+					<runcount>1</runcount>
+					<rundate>2022/07/06 12:30:58</rundate>
+				</file>
+				<file name="Kubuntu - shimultechtips">
+					<path>Files\ISOs\Linuxs\Kubuntu - shimultechtips.bat</path>
+				</file>
+				<file name="Manjaro - shimultechtips">
+					<path>Files\ISOs\Linuxs\Manjaro - shimultechtips.bat</path>
+				</file>
+				<file name="Slax - shimultechtips">
+					<path>Files\ISOs\Linuxs\Slax - shimultechtips.bat</path>
+				</file>
+				<file name="Ubuntu - shimultechtips">
+					<path>Files\ISOs\Linuxs\Ubuntu - shimultechtips.bat</path>
+				</file>
+			</files>
+			<files name="Tools">
+				<file name="Acronis Disk Director - shimultechtips">
+					<path>Files\ISOs\Tools\Acronis Disk Director - shimultechtips.bat</path>
+				</file>
+				<file name="Acronis True Image - shimultechtips">
+					<path>Files\ISOs\Tools\Acronis True Image - shimultechtips.bat</path>
+				</file>
+				<file name="AOMEI Backupper - shimultechtips">
+					<path>Files\ISOs\Tools\AOMEI Backupper - shimultechtips.bat</path>
+				</file>
+				<file name="AOMEI Partition Assistant - shimultechtips">
+					<path>Files\ISOs\Tools\AOMEI Partition Assistant - shimultechtips.bat</path>
+				</file>
+				<file name="Kaspersky Rescue Disk - shimultechtips">
+					<path>Files\ISOs\Tools\Kaspersky Rescue Disk - shimultechtips.bat</path>
+				</file>
+				<file name="MiniTool Partition Wizard - shimultechtips">
+					<path>Files\ISOs\Tools\MiniTool Partition Wizard - shimultechtips.bat</path>
+				</file>
+			</files>
+			<files name="Windows">
+				<file name="Windows (Gen2) - shimultechtips">
+					<path>Files\ISOs\Windows\Windows (Gen2) - shimultechtips.bat</path>
+				</file>
+				<file name="Windows (Genuine) - shimultechtips">
+					<path>Files\ISOs\Windows\Windows (Genuine) - shimultechtips.bat</path>
+				</file>
+				<file name="Windows (Zone94) - shimultechtips">
+					<path>Files\ISOs\Windows\Windows (Zone94) - shimultechtips.bat</path>
+				</file>
+			</files>
+			<files name="WinPEs">
+				<file name="Bob Omb&#x27;s Modified Win10PE - shimultechtips">
+					<path>Files\ISOs\WinPEs\Bob Omb&#x27;s Modified Win10PE - shimultechtips.bat</path>
+				</file>
+				<file name="Hiren&#x27;s BootCD Win10PE - shimultechtips">
+					<path>Files\ISOs\WinPEs\Hiren&#x27;s BootCD Win10PE - shimultechtips.bat</path>
+				</file>
+				<file name="Sergei Strelec&#x27;s WinPE - shimultechtips">
+					<path>Files\ISOs\WinPEs\Sergei Strelec&#x27;s WinPE - shimultechtips.bat</path>
+					<icon>Icons\WINPE.ico</icon>
+				</file>
+				<file name="Win11PE - shimultechtips">
+					<path>Files\ISOs\WinPEs\Win11PE - shimultechtips.bat</path>
+				</file>
+			</files>
+		</files>
+		<files name="Softwares">
+			<files name="Activators">
+				<file name="CW Activator - shimultechtips">
+					<path>Files\Softwares\Activators\CW Activator - shimultechtips.bat</path>
+				</file>
+				<file name="CW Activator Password">
+					<path>Files\Softwares\Activators\CW Activator Password.txt</path>
+				</file>
+				<file name="KMS VL ALL AIO - shimultechtips">
+					<path>Files\Softwares\Activators\KMS VL ALL AIO - shimultechtips.bat</path>
+				</file>
+				<file name="Microsoft Activation Script - shimultechtips">
+					<path>Files\Softwares\Activators\Microsoft Activation Script - shimultechtips.bat</path>
+					<icon>Icons\Microsoft Activation Script.ico</icon>
+				</file>
+				<file name="Windows Loader - shimultechtips">
+					<path>Files\Softwares\Activators\Windows Loader - shimultechtips.bat</path>
+					<icon>Icons\Windows Loader.ico</icon>
+				</file>
+				<file name="Windows Loader Password">
+					<path>Files\Softwares\Activators\Windows Loader Password.txt</path>
+				</file>
+			</files>
+			<files name="Android Emulators">
+				<file name="Bluestacks - shimultechtips">
+					<path>Files\Softwares\Android Emulators\Bluestacks - shimultechtips.bat</path>
+				</file>
+				<file name="Gameloop - shimultechtips">
+					<path>Files\Softwares\Android Emulators\Gameloop - shimultechtips.bat</path>
+				</file>
+				<file name="LDPlayer - shimultechtips">
+					<path>Files\Softwares\Android Emulators\LDPlayer - shimultechtips.bat</path>
+				</file>
+				<file name="Nox - shimultechtips">
+					<path>Files\Softwares\Android Emulators\Nox - shimultechtips.bat</path>
+				</file>
+			</files>
+			<files name="Antivirus">
+				<file name="Avast Free Antivirus - shimultechtips">
+					<path>Files\Softwares\Antivirus\Avast Free Antivirus - shimultechtips.bat</path>
+				</file>
+				<file name="Avira - shimultechtips">
+					<path>Files\Softwares\Antivirus\Avira - shimultechtips.bat</path>
+					<icon>Icons\Avira.ico</icon>
+				</file>
+				<file name="Bitdefender - shimultechtips">
+					<path>Files\Softwares\Antivirus\Bitdefender - shimultechtips.bat</path>
+				</file>
+				<file name="ESET - shimultechtips">
+					<path>Files\Softwares\Antivirus\ESET - shimultechtips.bat</path>
+					<icon>Icons\ESET.ico</icon>
+				</file>
+				<file name="Kaspersky Internet Security - shimultechtips">
+					<path>Files\Softwares\Antivirus\Kaspersky Internet Security - shimultechtips.bat</path>
+				</file>
+			</files>
+			<files name="Graphics">
+				<file name="Adobe Illustrator - shimultechtips">
+					<path>Files\Softwares\Graphics\Adobe Illustrator - shimultechtips.bat</path>
+					<icon>Icons\Illustrator.ico</icon>
+				</file>
+				<file name="Adobe Photoshop - shimultechtips">
+					<path>Files\Softwares\Graphics\Adobe Photoshop - shimultechtips.bat</path>
+					<icon>Icons\Photoshop.ico</icon>
+				</file>
+				<file name="AutoCAD - shimultechtips">
+					<path>Files\Softwares\Graphics\AutoCAD - shimultechtips.bat</path>
+					<icon>Icons\AutoCAD.ico</icon>
+				</file>
+				<file name="GIMP - shimultechtips">
+					<path>Files\Softwares\Graphics\GIMP - shimultechtips.bat</path>
+				</file>
+				<file name="Inkscape - shimultechtips">
+					<path>Files\Softwares\Graphics\Inkscape - shimultechtips.bat</path>
+				</file>
+			</files>
+			<files name="Internet">
+				<file name="Anydesk - shimultechtips">
+					<path>Files\Softwares\Internet\Anydesk - shimultechtips.bat</path>
+					<icon>Icons\AnyDesk.ico</icon>
+				</file>
+				<file name="Google Chrome - shimultechtips">
+					<path>Files\Softwares\Internet\Google Chrome - shimultechtips.bat</path>
+					<icon>Icons\Chrome.ico</icon>
+				</file>
+				<file name="Imo - shimultechtips">
+					<path>Files\Softwares\Internet\Imo - shimultechtips.bat</path>
+					<icon>Icons\Imo.ico</icon>
+				</file>
+				<file name="Internet Download Manager - shimultechtips">
+					<path>Files\Softwares\Internet\Internet Download Manager - shimultechtips.bat</path>
+					<icon>Icons\IDM.ico</icon>
+				</file>
+				<file name="Messenger - shimultechtips">
+					<path>Files\Softwares\Internet\Messenger - shimultechtips.bat</path>
+					<icon>Icons\Messenger.ico</icon>
+				</file>
+				<file name="Microsoft Edge - shimultechtips">
+					<path>Files\Softwares\Internet\Microsoft Edge - shimultechtips.bat</path>
+					<icon>Icons\Microsoft Edge.ico</icon>
+				</file>
+				<file name="Mozilla Firefox - shimultechtips">
+					<path>Files\Softwares\Internet\Mozilla Firefox - shimultechtips.bat</path>
+					<icon>Icons\Firefox.ico</icon>
+				</file>
+				<file name="Opera - shimultechtips">
+					<path>Files\Softwares\Internet\Opera - shimultechtips.bat</path>
+					<icon>Icons\Opera.ico</icon>
+				</file>
+				<file name="qBittorrent - shimultechtips">
+					<path>Files\Softwares\Internet\qBittorrent - shimultechtips.bat</path>
+					<icon>Icons\qBittorrent.ico</icon>
+				</file>
+				<file name="Skype - shimultechtips">
+					<path>Files\Softwares\Internet\Skype - shimultechtips.bat</path>
+					<icon>Icons\Skype.ico</icon>
+				</file>
+				<file name="TeamViewer - shimultechtips">
+					<path>Files\Softwares\Internet\TeamViewer - shimultechtips.bat</path>
+					<icon>Icons\TeamViewer.ico</icon>
+				</file>
+				<file name="Telegram - shimultechtips">
+					<path>Files\Softwares\Internet\Telegram - shimultechtips.bat</path>
+				</file>
+				<file name="Zoom - shimultechtips">
+					<path>Files\Softwares\Internet\Zoom - shimultechtips.bat</path>
+					<icon>Icons\Zoom.ico</icon>
+				</file>
+			</files>
+			<files name="Multimedia">
+				<file name="Any Video Converter - shimultechtips">
+					<path>Files\Softwares\Multimedia\Any Video Converter - shimultechtips.bat</path>
+					<icon>Icons\Any Video Converter.ico</icon>
+				</file>
+				<file name="Format Factory - shimultechtips">
+					<path>Files\Softwares\Multimedia\Format Factory - shimultechtips.bat</path>
+					<icon>Icons\Format Factory.ico</icon>
+				</file>
+				<file name="HandBrake - shimultechtips">
+					<path>Files\Softwares\Multimedia\HandBrake - shimultechtips.bat</path>
+				</file>
+				<file name="K-Lite Codec Pack Mega - shimultechtips">
+					<path>Files\Softwares\Multimedia\K-Lite Codec Pack Mega - shimultechtips.bat</path>
+				</file>
+				<file name="KMPlayer x64 - shimultechtips">
+					<path>Files\Softwares\Multimedia\KMPlayer x64 - shimultechtips.bat</path>
+					<icon>Icons\KMPlayer x64.ico</icon>
+				</file>
+				<file name="KMPlayer x86 - shimultechtips">
+					<path>Files\Softwares\Multimedia\KMPlayer x86 - shimultechtips.bat</path>
+					<icon>Icons\KMPlayer.ico</icon>
+				</file>
+				<file name="LAVFilters - shimultechtips">
+					<path>Files\Softwares\Multimedia\LAVFilters - shimultechtips.bat</path>
+					<icon>Icons\LAVFilter.ico</icon>
+				</file>
+				<file name="OpenCodec - shimultechtips">
+					<path>Files\Softwares\Multimedia\OpenCodec - shimultechtips.bat</path>
+				</file>
+				<file name="PotPlayer - shimultechtips">
+					<path>Files\Softwares\Multimedia\PotPlayer - shimultechtips.bat</path>
+					<icon>Icons\PotPlayer.ico</icon>
+				</file>
+				<file name="VLC Media Player - shimultechtips">
+					<path>Files\Softwares\Multimedia\VLC Media Player - shimultechtips.bat</path>
+					<icon>Icons\VLC Player.ico</icon>
+				</file>
+			</files>
+			<files name="Portable">
+				<file name="FCPortables - shimultechtips">
+					<path>Files\Softwares\Portable\FCPortables - shimultechtips.bat</path>
+					<icon>Icons\FCPortables.ico</icon>
+				</file>
+				<file name="Nirsoft - shimultechtips">
+					<path>Files\Softwares\Portable\Nirsoft - shimultechtips.bat</path>
+					<icon>Icons\NirLauncher.ico</icon>
+				</file>
+				<file name="Portableapps - shimultechtips">
+					<path>Files\Softwares\Portable\Portableapps - shimultechtips.bat</path>
+					<icon>Icons\Portableapps.ico</icon>
+				</file>
+				<file name="Portablefreeware - shimultechtips">
+					<path>Files\Softwares\Portable\Portablefreeware - shimultechtips.bat</path>
+				</file>
+				<file name="SoftwareOK - shimultechtips">
+					<path>Files\Softwares\Portable\SoftwareOK - shimultechtips.bat</path>
+					<icon>Icons\SoftwareOK.ico</icon>
+				</file>
+				<file name="Sordum - shimultechtips">
+					<path>Files\Softwares\Portable\Sordum - shimultechtips.bat</path>
+					<icon>Icons\Sordum.ico</icon>
+				</file>
+				<file name="Sysinternals - shimultechtips">
+					<path>Files\Softwares\Portable\Sysinternals - shimultechtips.bat</path>
+					<icon>Icons\SysMenu.ico</icon>
+				</file>
+			</files>
+			<files name="Utilities">
+				<file name="7-Zip - shimultechtips">
+					<path>Files\Softwares\Utilities\7-Zip - shimultechtips.bat</path>
+					<icon>Icons\7-zip.ico</icon>
+				</file>
+				<file name="Ditto - shimultechtips">
+					<path>Files\Softwares\Utilities\Ditto - shimultechtips.bat</path>
+					<icon>Icons\Ditto.ico</icon>
+				</file>
+				<file name="Everything - shimultechtips">
+					<path>Files\Softwares\Utilities\Everything - shimultechtips.bat</path>
+					<icon>Icons\Everything.ico</icon>
+				</file>
+				<file name="Foxit PDF Reader - shimultechtips">
+					<path>Files\Softwares\Utilities\Foxit PDF Reader - shimultechtips.bat</path>
+					<icon>Icons\Foxit Reader.ico</icon>
+				</file>
+				<file name="MemTest64 - shimultechtips">
+					<path>Files\Softwares\Utilities\MemTest64 - shimultechtips.bat</path>
+				</file>
+				<file name="MS Visual C++ Redistributable AIO - shimultechtips">
+					<path>Files\Softwares\Utilities\MS Visual C++ Redistributable AIO - shimultechtips.bat</path>
+					<icon>Icons\Visual C++.ico</icon>
+				</file>
+				<file name="Notepad++ - shimultechtips">
+					<path>Files\Softwares\Utilities\Notepad++ - shimultechtips.bat</path>
+				</file>
+				<file name="OpenShell - shimultechtips">
+					<path>Files\Softwares\Utilities\OpenShell - shimultechtips.bat</path>
+					<icon>Icons\Open Shell.ico</icon>
+				</file>
+				<file name="SharpKeys - shimultechtips">
+					<path>Files\Softwares\Utilities\SharpKeys - shimultechtips.bat</path>
+				</file>
+				<file name="WinCDEmu - shimultechtips">
+					<path>Files\Softwares\Utilities\WinCDEmu - shimultechtips.bat</path>
+				</file>
+				<file name="WinRAR - shimultechtips">
+					<path>Files\Softwares\Utilities\WinRAR - shimultechtips.bat</path>
+					<icon>Icons\WinRAR.ico</icon>
+				</file>
+			</files>
+			<files name="Writing">
+				<file name="1001 Fonts - shimultechtips">
+					<path>Files\Softwares\Writing\1001 Fonts - shimultechtips.bat</path>
+				</file>
+				<file name="Avro Keyboard - shimultechtips">
+					<path>Files\Softwares\Writing\Avro Keyboard - shimultechtips.bat</path>
+					<icon>Icons\Avro Keyboard.ico</icon>
+				</file>
+				<file name="BijoyBayanno - shimultechtips">
+					<path>Files\Softwares\Writing\BijoyBayanno - shimultechtips.bat</path>
+					<icon>Icons\Bijoy.ico</icon>
+				</file>
+				<file name="DaFont - shimultechtips">
+					<path>Files\Softwares\Writing\DaFont - shimultechtips.bat</path>
+				</file>
+				<file name="Lipighor - shimultechtips">
+					<path>Files\Softwares\Writing\Lipighor - shimultechtips.bat</path>
+				</file>
+				<file name="Microsoft Office - shimultechtips">
+					<path>Files\Softwares\Writing\Microsoft Office - shimultechtips.bat</path>
+					<icon>Icons\MS Office.ico</icon>
+				</file>
+				<file name="Okkhor52 - shimultechtips">
+					<path>Files\Softwares\Writing\Okkhor52 - shimultechtips.bat</path>
+				</file>
+				<file name="Tipp10 - shimultechtips">
+					<path>Files\Softwares\Writing\Tipp10 - shimultechtips.bat</path>
+					<runcount>1</runcount>
+					<rundate>2022/04/11 16:16:54</rundate>
+				</file>
+			</files>
+		</files>
+	</files>
+	<notes>
+	</notes>
+	<colors>
+		<color name="0">
+			<value>A0A0FFh</value>
+		</color>
+		<color name="1">
+			<value>A0C0FFh</value>
+		</color>
+		<color name="2">
+			<value>A0FFFFh</value>
+		</color>
+		<color name="3">
+			<value>A0FFA0h</value>
+		</color>
+		<color name="4">
+			<value>FFA0A0h</value>
+		</color>
+	</colors>
+	<configurationfile>
+		<backupmode>pbmTemporary</backupmode>
+	</configurationfile>
+	<execution>
+		<count>276</count>
+		<overalltime>31:47:24.427</overalltime>
+	</execution>
+	<general>
+		<executionaction>0</executionaction>
+		<language>english</language>
+		<singleclick>False</singleclick>
+	</general>
+	<history>
+		<usernames>
+			<item></item>
+		</usernames>
+	</history>
+	<info>
+		<visible>False</visible>
+	</info>
+	<menu>
+		<hotkeysvisible>True</hotkeysvisible>
+	</menu>
+	<mouse>
+		<sensors>
+			<bottom>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottom>
+			<bottomleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomleft>
+			<bottomright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomright>
+			<cornersize>20</cornersize>
+			<left>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</left>
+			<monitor>1</monitor>
+			<right>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</right>
+			<top>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</top>
+			<topleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topleft>
+			<topright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topright>
+		</sensors>
+	</mouse>
+	<note>
+		<alarm>
+			<notify>
+				<autoclose>False</autoclose>
+				<duration>10</duration>
+				<sound></sound>
+			</notify>
+			<recenttime>2020/07/22 09:26:40</recenttime>
+		</alarm>
+		<defaultcolor>A0FFFFh</defaultcolor>
+		<style>0</style>
+		<visible>False</visible>
+		<wordbreak>1</wordbreak>
+	</note>
+	<panel>
+		<closemode>0</closemode>
+		<hotkey>False</hotkey>
+		<hotkeyclose>True</hotkeyclose>
+		<hotkeycode>15</hotkeycode>
+		<hotkeymodifier>7</hotkeymodifier>
+		<pageindex>0</pageindex>
+		<position>1</position>
+		<showonstartup>True</showonstartup>
+		<staticsize>True</staticsize>
+		<title>$ - Shimul Tech Tips Launcher</title>
+	</panel>
+	<search>
+		<allusersstartmenu>True</allusersstartmenu>
+		<colorize>True</colorize>
+		<colors>
+			<allusersstartmenu>0080FFh</allusersstartmenu>
+			<currentuserstartmenu>40A000h</currentuserstartmenu>
+			<pstart>FF4040h</pstart>
+		</colors>
+		<currentuserstartmenu>True</currentuserstartmenu>
+		<includemode>0</includemode>
+		<pstart>True</pstart>
+		<sort>0</sort>
+	</search>
+	<style>
+		<additionaltextcolor>000000h</additionaltextcolor>
+		<backgroundimage></backgroundimage>
+		<captioncolor>000000h</captioncolor>
+		<iconsize>0</iconsize>
+		<iteminfomode>0</iteminfomode>
+	</style>
+	<tray>
+		<doubleclick>1</doubleclick>
+		<hotkey>False</hotkey>
+		<hotkeycode>12</hotkeycode>
+		<hotkeymodifier>4</hotkeymodifier>
+		<hover>0</hover>
+		<iconimage>0</iconimage>
+		<iconvisibility>0</iconvisibility>
+		<leftclick>2</leftclick>
+	</tray>
+	<window>
+		<main>
+			<position>
+				<x>336</x>
+				<y>237</y>
+			</position>
+			<size>
+				<x>400</x>
+				<y>550</y>
+			</size>
+		</main>
+	</window>
+</start>
