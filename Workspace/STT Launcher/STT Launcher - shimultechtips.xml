@@ -1,0 +1,298 @@
+<start>
+	<files>
+		<file name="01. Disable Windows Defender.">
+			<path>All Files\Open Defender - shimultechtips.bat</path>
+			<description>For W-10,11.</description>
+			<icon>All Files\Icons\Defender BK - shimultechtips.exe</icon>
+			<runcount>26</runcount>
+			<rundate>2023/03/11 10:24:04</rundate>
+		</file>
+		<file name="02. Windows Tweaks.">
+			<path>All Files\Windows Tweaks - shimultechtips.bat</path>
+			<description>For W-7,8.1,10,11 And New Install.</description>
+			<icon>All Files\Icons\Windows Tweaks - shimultechtips.exe</icon>
+			<runcount>10</runcount>
+			<rundate>2023/03/05 16:58:19</rundate>
+		</file>
+		<file name="03. Update Windows And Drivers.">
+			<path>All Files\Windows Update - shimultechtips.bat</path>
+			<description>For W-10,11 And All.</description>
+			<icon>All Files\Icons\Settings - shimultechtips.exe</icon>
+			<runcount>2</runcount>
+			<rundate>2023/01/20 00:53:47</rundate>
+		</file>
+		<file name="04. Update Drivers With SDI.">
+			<path>..\..\Drivers\Snappy Driver Installer Full (Shimul)\SDI Auto (Double Click This File To Install Drivers) - shimultechtips.bat</path>
+			<description>For W-XP,7,8.1,10,11 And All.</description>
+			<icon>..\..\Drivers\Snappy Driver Installer Full (Shimul)\SDI\SDI_x64_R2201.exe</icon>
+			<runcount>63</runcount>
+			<rundate>2023/05/16 11:02:45</rundate>
+		</file>
+		<file name="05. Update Graphics Driver With SDI.">
+			<path>..\..\Drivers\SDI For Intel Graphics Driver (22044)\SDI Auto (Double Click This File To Install Drivers) - shimultechtips.bat</path>
+			<description>For W-XP,7,8.1,10,11 And All.</description>
+			<icon>..\..\Drivers\Snappy Driver Installer Full (Shimul)\SDI\SDI_x64_R2201.exe</icon>
+			<runcount>43</runcount>
+			<rundate>2023/05/21 12:18:25</rundate>
+		</file>
+		<file name="06. Copy STT Softwares To D Drive.">
+			<path>All Files\Copy STT Softwares To D Drive And Open Folder - shimultechtips.bat</path>
+			<description>For W-7,8.1,10,11 And All.</description>
+			<icon>All Files\Icons\Drive - shimultechtips.exe</icon>
+			<runcount>16</runcount>
+			<rundate>2023/05/16 11:02:51</rundate>
+		</file>
+		<file name="07. Install Softwares From PHDD.">
+			<path>..\..\STT Softwares\Shimul&#x27;s Installable Program&#x27;s Selector - shimultechtips.exe</path>
+			<description>For W-7,8.1,10,11 And All.</description>
+			<icon>All Files\Icons\SIPS - shimultechtips.exe</icon>
+			<runcount>12</runcount>
+			<rundate>2023/05/14 21:14:21</rundate>
+		</file>
+		<file name="08. Install Softwares From D Drive.">
+			<path>All Files\SIPS From D Drive - shimultechtips.cmd</path>
+			<description>For W-7,8.1,10,11 And All.</description>
+			<icon>All Files\Icons\SIPS - shimultechtips.exe</icon>
+			<runcount>6</runcount>
+			<rundate>2023/03/11 15:27:48</rundate>
+		</file>
+		<file name="09. Delete STT Launcher Shortcut.">
+			<path>All Files\Delete STT Launcher - shimultechtips.bat</path>
+			<description>For W-7,8.1,10,11 And All.</description>
+			<icon>All Files\Icons\Delete - shimultechtips.exe</icon>
+			<runcount>36</runcount>
+			<rundate>2023/03/11 10:25:25</rundate>
+		</file>
+		<files name="10. Add Bookmarks And IDM Extension To All Browsers.">
+			<icon>All Files\Icons\Task - shimultechtips.exe</icon>
+		</files>
+		<file name="11. Activate Windows Using MAS (KMS38).">
+			<path>..\..\STT Softwares\All Files\Activators\Activation With MAS (KMS38) - shimultechtips.exe</path>
+			<description>For W-8.1,10,11 And All.</description>
+			<runcount>25</runcount>
+			<rundate>2023/03/09 19:19:12</rundate>
+		</file>
+		<file name="12. Activate Windows And Office Using KMS VL ALL AIO.">
+			<path>..\..\STT Softwares\All Files\Activators\Activation With KMS VL ALL AIO - shimultechtips.exe</path>
+			<description>For W-8.1,10,11 And All.</description>
+			<runcount>18</runcount>
+			<rundate>2023/03/09 03:01:31</rundate>
+		</file>
+		<file name="13. Activate Windows 7 Using Windows Loader.">
+			<path>..\..\STT Softwares\All Files\Activators\Windows Loader - shimultechtips.exe</path>
+			<description>For W-7 And Restored.</description>
+			<runcount>6</runcount>
+			<rundate>2023/03/08 13:02:41</rundate>
+		</file>
+		<files name="$ - Extras">
+			<icon>All Files\Icons\Task - shimultechtips.exe</icon>
+			<file name="01. Change Drive Names Of C And D.">
+				<path>All Files\Change Drive Names Of C And D - shimultechtips.exe</path>
+				<description>For W-7,8.1,10,11 And New Install.</description>
+				<icon>All Files\Icons\Drive - shimultechtips.exe</icon>
+				<runcount>1</runcount>
+				<rundate>2023/01/13 23:03:45</rundate>
+			</file>
+			<file name="02. Set Default Programs.">
+				<path>All Files\Default Programs - shimultechtips.bat</path>
+				<description>For W-7,8.1,10,11 And New Install.</description>
+				<icon>All Files\Icons\Default Programs - shimultechtips.exe</icon>
+				<runcount>1</runcount>
+				<rundate>2023/01/19 11:25:30</rundate>
+			</file>
+			<file name="03. Programs And Features.">
+				<path>All Files\Programs And Features - shimultechtips.bat</path>
+				<description>For W-XP,7,8.1,10,11 And Restored.</description>
+				<icon>All Files\Icons\Program And Features - shimultechtips.exe</icon>
+			</file>
+			<file name="04. Uninstall Programs Using UninstallView.">
+				<path>All Files\UninstallView - shimultechtips.exe</path>
+				<description>For W-XP,7,8.1,10,11 And Restored.</description>
+				<runcount>1</runcount>
+				<rundate>2023/01/18 13:49:09</rundate>
+			</file>
+			<file name="05. Disk Management.">
+				<path>All Files\Disk Management - shimultechtips.bat</path>
+				<description>For W-XP,7,8.1,10,11 And All.</description>
+				<icon>All Files\Icons\Disk Management  - shimultechtips.exe</icon>
+			</file>
+			<file name="06. Set Date And Time.">
+				<path>All Files\Date And Time - shimultechtips.bat</path>
+				<description>For W-XP,7,8.1,10,11 And All.</description>
+				<icon>All Files\Icons\Date-Time - shimultechtips.exe</icon>
+				<runcount>1</runcount>
+				<rundate>2023/01/13 23:03:59</rundate>
+			</file>
+			<file name="07. Restarts Explorer.">
+				<path>All Files\Restart Explorer - shimultechtips.exe</path>
+				<description>For W-XP,7,8.1,10,11 And All.</description>
+			</file>
+			<file name="08. Partition Calculator.">
+				<path>All Files\Partition Calculator\Partition Calculator - shimultechtips.bat</path>
+				<description>For W-XP,7,8.1,10,11 And All.</description>
+				<icon>All Files\Partition Calculator\Spread32 - shimultechtips.exe</icon>
+				<runcount>5</runcount>
+				<rundate>2023/01/18 14:06:16</rundate>
+			</file>
+			<file name="09. Drive Letter Changer.">
+				<path>All Files\Drive Letter Changer - shimultechtips.exe</path>
+				<description>For W-XP,7,8.1,10,11 And All.</description>
+				<runcount>1</runcount>
+				<rundate>2023/01/18 20:25:58</rundate>
+			</file>
+			<file name="10. Activate Windows Using MAS (HWID).">
+				<path>..\..\STT Softwares\All Files\Activators\Activation With MAS (HWID) - shimultechtips.exe</path>
+				<description>For W-8.1,10,11 And All.</description>
+				<runcount>16</runcount>
+				<rundate>2023/03/11 10:24:11</rundate>
+			</file>
+		</files>
+	</files>
+	<notes>
+	</notes>
+	<colors>
+		<color name="0">
+			<value>A0A0FFh</value>
+		</color>
+		<color name="1">
+			<value>A0C0FFh</value>
+		</color>
+		<color name="2">
+			<value>A0FFFFh</value>
+		</color>
+		<color name="3">
+			<value>A0FFA0h</value>
+		</color>
+		<color name="4">
+			<value>FFA0A0h</value>
+		</color>
+	</colors>
+	<configurationfile>
+		<backupmode>pbmTemporary</backupmode>
+	</configurationfile>
+	<execution>
+		<count>359</count>
+		<overalltime>205:26:39.277</overalltime>
+	</execution>
+	<general>
+		<executionaction>0</executionaction>
+		<language>english</language>
+		<singleclick>False</singleclick>
+	</general>
+	<history>
+		<usernames>
+		</usernames>
+	</history>
+	<info>
+		<visible>True</visible>
+	</info>
+	<menu>
+		<hotkeysvisible>True</hotkeysvisible>
+	</menu>
+	<mouse>
+		<sensors>
+			<bottom>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottom>
+			<bottomleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomleft>
+			<bottomright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomright>
+			<cornersize>20</cornersize>
+			<left>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</left>
+			<monitor>1</monitor>
+			<right>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</right>
+			<top>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</top>
+			<topleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topleft>
+			<topright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topright>
+		</sensors>
+	</mouse>
+	<note>
+		<alarm>
+			<notify>
+				<autoclose>False</autoclose>
+				<duration>10</duration>
+				<sound></sound>
+			</notify>
+			<recenttime>2020/07/22 09:26:40</recenttime>
+		</alarm>
+		<defaultcolor>A0FFFFh</defaultcolor>
+		<style>0</style>
+		<visible>True</visible>
+		<wordbreak>1</wordbreak>
+	</note>
+	<panel>
+		<closemode>0</closemode>
+		<hotkey>False</hotkey>
+		<hotkeyclose>True</hotkeyclose>
+		<hotkeycode>15</hotkeycode>
+		<hotkeymodifier>7</hotkeymodifier>
+		<pageindex>0</pageindex>
+		<position>1</position>
+		<showonstartup>True</showonstartup>
+		<staticsize>True</staticsize>
+		<title>STT Launcher - Shimul Tech Tips Team</title>
+	</panel>
+	<search>
+		<allusersstartmenu>True</allusersstartmenu>
+		<colorize>True</colorize>
+		<colors>
+			<allusersstartmenu>0080FFh</allusersstartmenu>
+			<currentuserstartmenu>40A000h</currentuserstartmenu>
+			<pstart>FF4040h</pstart>
+		</colors>
+		<currentuserstartmenu>True</currentuserstartmenu>
+		<includemode>0</includemode>
+		<pstart>True</pstart>
+		<sort>0</sort>
+	</search>
+	<style>
+		<additionaltextcolor>000000h</additionaltextcolor>
+		<backgroundimage></backgroundimage>
+		<captioncolor>000000h</captioncolor>
+		<iconsize>0</iconsize>
+		<iteminfomode>7</iteminfomode>
+	</style>
+	<tray>
+		<doubleclick>1</doubleclick>
+		<hotkey>False</hotkey>
+		<hotkeycode>12</hotkeycode>
+		<hotkeymodifier>4</hotkeymodifier>
+		<hover>0</hover>
+		<iconimage>2</iconimage>
+		<iconvisibility>0</iconvisibility>
+		<leftclick>1</leftclick>
+	</tray>
+	<window>
+		<main>
+			<position>
+				<x>760</x>
+				<y>231</y>
+			</position>
+			<size>
+				<x>400</x>
+				<y>570</y>
+			</size>
+		</main>
+	</window>
+</start>
