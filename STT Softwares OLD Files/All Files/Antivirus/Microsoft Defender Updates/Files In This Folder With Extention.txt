@@ -1,0 +1,10 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+x64\
+x86\
+Install Microsoft Defender Updates - shimultechtips.bat
+Readme.txt
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

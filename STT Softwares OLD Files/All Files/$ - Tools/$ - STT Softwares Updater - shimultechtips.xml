@@ -1,0 +1,337 @@
+<start>
+	<files>
+		<files name="Softwares">
+			<files name="Antivirus">
+				<file name="Bitdefender - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Bitdefender - shimultechtips.bat</path>
+					<icon>Icons\Bitdefender - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Development">
+				<file name="Pycharm CE - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Pycharm CE - shimultechtips.bat</path>
+					<icon>Icons\Pycharm CE - shimultechtips.ico</icon>
+				</file>
+				<file name="VS Code - shimultechtips">
+					<path>$ - STT Softwares Updater Files\VS Code - shimultechtips.bat</path>
+					<icon>Icons\VS Code - shimultechtips.ico</icon>
+				</file>
+				<file name="Python - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Python - shimultechtips.bat</path>
+					<icon>Icons\Python - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Editor">
+				<file name="Kdenlive - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Kdenlive - shimultechtips.bat</path>
+					<icon>Icons\Kdenlive - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Internet">
+				<file name="Brave - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Brave - shimultechtips.bat</path>
+					<icon>Icons\Brave - shimultechtips.ico</icon>
+				</file>
+				<file name="MS Edge - shimultechtips">
+					<path>$ - STT Softwares Updater Files\MS Edge - shimultechtips.bat</path>
+					<icon>Icons\MS Edge - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Multimedia">
+				<file name="KMPlayer - shimultechtips">
+					<path>$ - STT Softwares Updater Files\KMPlayer - shimultechtips.bat</path>
+					<icon>Icons\KMPlayer - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Screen Recorder">
+				<file name="ShareX - shimultechtips">
+					<path>$ - STT Softwares Updater Files\ShareX - shimultechtips.bat</path>
+					<icon>Icons\ShareX - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Utilities">
+				<file name="Everything - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Everything - shimultechtips.bat</path>
+					<icon>Icons\Everything - shimultechtips.ico</icon>
+				</file>
+				<file name="FreeFileSync - shimultechtips">
+					<path>$ - STT Softwares Updater Files\FreeFileSync - shimultechtips.bat</path>
+					<icon>Icons\FreeFileSync - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Virtualization">
+				<file name="VMware Workstation - shimultechtips">
+					<path>$ - STT Softwares Updater Files\VMware Workstation - shimultechtips.bat</path>
+					<icon>Icons\VMware Workstation - shimultechtips.ico</icon>
+				</file>
+			</files>
+		</files>
+		<files name="STT Softwares">
+			<autoexpand>True</autoexpand>
+			<files name="Activators">
+				<file name="KMS VL ALL AIO - shimultechtips">
+					<path>$ - STT Softwares Updater Files\KMS VL ALL AIO - shimultechtips.bat</path>
+					<icon>Icons\CMD - shimultechtips.ico</icon>
+					<runcount>4</runcount>
+					<rundate>2022/11/20 14:13:11</rundate>
+				</file>
+				<file name="Microsoft Activation Script - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Microsoft Activation Script - shimultechtips.bat</path>
+					<icon>Icons\Microsoft Activation Script - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/14 18:36:59</rundate>
+				</file>
+			</files>
+			<files name="Antivirus">
+				<file name="Avira - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Avira - shimultechtips.bat</path>
+					<icon>Icons\Avira - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/20 12:38:27</rundate>
+				</file>
+				<file name="ESET - shimultechtips">
+					<path>$ - STT Softwares Updater Files\ESET - shimultechtips.bat</path>
+					<icon>Icons\ESET - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/20 12:39:22</rundate>
+				</file>
+				<file name="Kaspersky Internet Security - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Kaspersky Internet Security - shimultechtips.bat</path>
+					<icon>Icons\Kaspersky - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/20 12:39:24</rundate>
+				</file>
+				<file name="REVE Internet Security - shimultechtips">
+					<path>$ - STT Softwares Updater Files\REVE Internet Security - shimultechtips.bat</path>
+					<icon>Icons\REVE - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Internet">
+				<file name="Anydesk - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Anydesk - shimultechtips.bat</path>
+					<icon>Icons\AnyDesk - shimultechtips.ico</icon>
+					<runcount>2</runcount>
+					<rundate>2022/11/20 12:42:26</rundate>
+				</file>
+				<file name="Free Download Manager - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Free Download Manager - shimultechtips.bat</path>
+					<icon>Icons\Free Download Manager - shimultechtips.ico</icon>
+				</file>
+				<file name="Google Chrome - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Google Chrome - shimultechtips.bat</path>
+					<icon>Icons\Chrome - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/20 12:43:14</rundate>
+				</file>
+				<file name="Mozilla Firefox - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Mozilla Firefox - shimultechtips.bat</path>
+					<icon>Icons\Firefox - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/20 12:43:24</rundate>
+				</file>
+				<file name="qBittorrent - shimultechtips">
+					<path>$ - STT Softwares Updater Files\qBittorrent - shimultechtips.bat</path>
+					<icon>Icons\qBittorrent - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/20 12:43:30</rundate>
+				</file>
+				<file name="Savefromnet - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Savefromnet - shimultechtips.bat</path>
+					<icon>Icons\Savefromnet - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Multimedia">
+				<file name="K-Lite Codec Pack Mega - shimultechtips">
+					<path>$ - STT Softwares Updater Files\K-Lite Codec Pack Mega - shimultechtips.bat</path>
+					<icon>Icons\K-Lite Codec Pack Mega - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/14 18:07:08</rundate>
+				</file>
+				<file name="PotPlayer - shimultechtips">
+					<path>$ - STT Softwares Updater Files\PotPlayer - shimultechtips.bat</path>
+					<icon>Icons\PotPlayer - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/14 18:06:41</rundate>
+				</file>
+				<file name="VLC Media Player - shimultechtips">
+					<path>$ - STT Softwares Updater Files\VLC Media Player - shimultechtips.bat</path>
+					<icon>Icons\VLC Player - shimultechtips.ico</icon>
+				</file>
+			</files>
+			<files name="Utilities">
+				<file name="7-zip - shimultechtips">
+					<path>$ - STT Softwares Updater Files\7-zip - shimultechtips.bat</path>
+					<icon>Icons\7-zip - shimultechtips.ico</icon>
+				</file>
+				<file name="Foxit PDF Reader - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Foxit PDF Reader - shimultechtips.bat</path>
+					<icon>Icons\Foxit Reader - shimultechtips.ico</icon>
+					<runcount>3</runcount>
+					<rundate>2022/11/20 12:44:55</rundate>
+				</file>
+				<file name="MS Visual C++ Redistributable AIO - shimultechtips">
+					<path>$ - STT Softwares Updater Files\MS Visual C++ Redistributable AIO - shimultechtips.bat</path>
+					<icon>Icons\Visual C++ - shimultechtips.ico</icon>
+					<runcount>1</runcount>
+					<rundate>2022/11/20 12:45:10</rundate>
+				</file>
+				<file name="Notepad++ - shimultechtips">
+					<path>$ - STT Softwares Updater Files\Notepad++ - shimultechtips.bat</path>
+					<icon>Icons\Notepad++ - shimultechtips.ico</icon>
+				</file>
+				<file name="WinRAR - shimultechtips">
+					<path>$ - STT Softwares Updater Files\WinRAR - shimultechtips.bat</path>
+					<icon>Icons\WinRAR - shimultechtips.ico</icon>
+				</file>
+			</files>
+		</files>
+	</files>
+	<notes>
+	</notes>
+	<colors>
+		<color name="0">
+			<value>A0A0FFh</value>
+		</color>
+		<color name="1">
+			<value>A0C0FFh</value>
+		</color>
+		<color name="2">
+			<value>A0FFFFh</value>
+		</color>
+		<color name="3">
+			<value>A0FFA0h</value>
+		</color>
+		<color name="4">
+			<value>FFA0A0h</value>
+		</color>
+	</colors>
+	<configurationfile>
+		<backupmode>pbmTemporary</backupmode>
+	</configurationfile>
+	<execution>
+		<count>298</count>
+		<overalltime>33:23:00.490</overalltime>
+	</execution>
+	<general>
+		<executionaction>0</executionaction>
+		<language>english</language>
+		<singleclick>False</singleclick>
+	</general>
+	<history>
+		<usernames>
+			<item></item>
+		</usernames>
+	</history>
+	<info>
+		<visible>False</visible>
+	</info>
+	<menu>
+		<hotkeysvisible>True</hotkeysvisible>
+	</menu>
+	<mouse>
+		<sensors>
+			<bottom>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottom>
+			<bottomleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomleft>
+			<bottomright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomright>
+			<cornersize>20</cornersize>
+			<left>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</left>
+			<monitor>1</monitor>
+			<right>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</right>
+			<top>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</top>
+			<topleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topleft>
+			<topright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topright>
+		</sensors>
+	</mouse>
+	<note>
+		<alarm>
+			<notify>
+				<autoclose>False</autoclose>
+				<duration>10</duration>
+				<sound></sound>
+			</notify>
+			<recenttime>2020/07/22 09:26:40</recenttime>
+		</alarm>
+		<defaultcolor>A0FFFFh</defaultcolor>
+		<style>0</style>
+		<visible>False</visible>
+		<wordbreak>1</wordbreak>
+	</note>
+	<panel>
+		<closemode>0</closemode>
+		<hotkey>False</hotkey>
+		<hotkeyclose>True</hotkeyclose>
+		<hotkeycode>15</hotkeycode>
+		<hotkeymodifier>7</hotkeymodifier>
+		<pageindex>0</pageindex>
+		<position>1</position>
+		<showonstartup>True</showonstartup>
+		<staticsize>True</staticsize>
+		<title>$ - STT Softwares Updater - shimultechtips</title>
+	</panel>
+	<search>
+		<allusersstartmenu>True</allusersstartmenu>
+		<colorize>True</colorize>
+		<colors>
+			<allusersstartmenu>0080FFh</allusersstartmenu>
+			<currentuserstartmenu>40A000h</currentuserstartmenu>
+			<pstart>FF4040h</pstart>
+		</colors>
+		<currentuserstartmenu>True</currentuserstartmenu>
+		<includemode>0</includemode>
+		<pstart>True</pstart>
+		<sort>0</sort>
+	</search>
+	<style>
+		<additionaltextcolor>000000h</additionaltextcolor>
+		<backgroundimage></backgroundimage>
+		<captioncolor>000000h</captioncolor>
+		<iconsize>0</iconsize>
+		<iteminfomode>0</iteminfomode>
+	</style>
+	<tray>
+		<doubleclick>1</doubleclick>
+		<hotkey>False</hotkey>
+		<hotkeycode>12</hotkeycode>
+		<hotkeymodifier>4</hotkeymodifier>
+		<hover>0</hover>
+		<iconimage>0</iconimage>
+		<iconvisibility>0</iconvisibility>
+		<leftclick>2</leftclick>
+	</tray>
+	<window>
+		<main>
+			<position>
+				<x>760</x>
+				<y>241</y>
+			</position>
+			<size>
+				<x>400</x>
+				<y>550</y>
+			</size>
+		</main>
+	</window>
+</start>

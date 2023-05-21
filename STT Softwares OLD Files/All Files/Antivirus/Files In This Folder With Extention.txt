@@ -1,0 +1,13 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+Microsoft Defender Updates\
+Avira Antivirus - shimultechtips.exe
+Eset Internet Security x64 - shimultechtips.exe
+Eset Internet Security x86 - shimultechtips.exe
+Install Eset Internet Security - shimultechtips.bat
+Kaspersky Internet Security 2019 - shimultechtips.exe
+REVE Internet Security - shimultechtips.exe
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

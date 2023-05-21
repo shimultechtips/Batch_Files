@@ -1,0 +1,302 @@
+<start>
+	<files>
+		<file name="$ - Open Defender - shimultechtips">
+			<path>..\Activators\$ - Open Defender - shimultechtips.bat</path>
+		</file>
+		<files name="Activators">
+			<file name="KMS VL ALL AIO - shimultechtips">
+				<path>..\Activators\KMS VL ALL AIO - shimultechtips.cmd</path>
+				<icon>Icons\CMD - shimultechtips.ico</icon>
+			</file>
+			<file name="Re-Loader Activator - shimultechtips">
+				<path>..\Activators\Re-Loader Activator - shimultechtips.exe</path>
+			</file>
+			<file name="Microsoft Activation Script - shimultechtips">
+				<path>..\Activators\Microsoft Activation Script - shimultechtips.cmd</path>
+				<icon>Icons\CMD - shimultechtips.ico</icon>
+			</file>
+			<file name="Windows Loader - shimultechtips">
+				<path>..\Activators\Windows Loader - shimultechtips.exe</path>
+			</file>
+		</files>
+		<files name="Antivirus">
+			<file name="Avira Antivirus Installation Packag">
+				<path>..\Antivirus\Avira Antivirus - shimultechtips.exe</path>
+			</file>
+			<file name="Eset Internet Security - shimultechtips">
+				<path>..\Antivirus\Install Eset Internet Security - shimultechtips.bat</path>
+				<icon>Icons\ESET - shimultechtips.ico</icon>
+				<runcount>1</runcount>
+				<rundate>2021/11/30 05:26:35</rundate>
+			</file>
+			<file name="Kaspersky Internet Security [19.0.0.1088.0.1248.0 (a)]">
+				<path>..\Antivirus\Kaspersky Internet Security 2019 - shimultechtips.exe</path>
+			</file>
+			<file name="Microsoft Defender Updates - shimultechtips">
+				<path>..\Antivirus\Microsoft Defender Updates\Install Microsoft Defender Updates - shimultechtips.bat</path>
+				<icon>Icons\Microsoft Defender - shimultechtips.ico</icon>
+			</file>
+			<file name="REVE Antivirus Product Installer">
+				<path>..\Antivirus\REVE Internet Security - shimultechtips.exe</path>
+			</file>
+		</files>
+		<files name="Graphics">
+			<file name="Illustrator - shimultechtips">
+				<path>..\Graphics\Illustrator\Install Illustrator - shimultechtips.bat</path>
+				<icon>Icons\Illustrator - shimultechtips.ico</icon>
+				<runcount>2</runcount>
+				<rundate>2022/12/05 10:02:00</rundate>
+			</file>
+			<file name="Photoshop - shimultechtips">
+				<path>..\Graphics\Photoshop\Install Photoshop - shimultechtips.bat</path>
+				<icon>Icons\Photoshop - shimultechtips.ico</icon>
+				<runcount>3</runcount>
+				<rundate>2022/12/05 10:02:04</rundate>
+			</file>
+		</files>
+		<files name="Internet">
+			<file name="AnyDesk - shimultechtips">
+				<path>..\Internet\AnyDesk - shimultechtips.exe</path>
+			</file>
+			<file name="Free Download Manager - shimultechtips">
+				<path>..\Internet\Free Download Manager\Silently Install Free Download Manager - shimultechtips.bat</path>
+				<icon>Icons\Free Download Manager - shimultechtips.ico</icon>
+			</file>
+			<file name="Google Chrome - shimultechtips">
+				<path>..\Internet\Google Chrome\Silently Install Google Chrome - shimultechtips.bat</path>
+				<icon>Icons\Chrome - shimultechtips.ico</icon>
+			</file>
+			<file name="IDM - shimultechtips">
+				<path>..\Internet\Internet Download Manager(IDM)\Silently Install IDM - shimultechtips.bat</path>
+				<icon>Icons\IDM - shimultechtips.ico</icon>
+			</file>
+			<file name="Mozilla Firefox - shimultechtips">
+				<path>..\Internet\Mozilla Firefox\Silently Install Mozilla Firefox - shimultechtips.bat</path>
+				<icon>Icons\Firefox - shimultechtips.ico</icon>
+			</file>
+			<file name="qBittorrent - shimultechtips">
+				<path>..\Internet\qBittorrent\Silently Install qBittorrent - shimultechtips.bat</path>
+				<icon>Icons\qBittorrent - shimultechtips.ico</icon>
+			</file>
+			<file name="SaveFrom.net Helper Installer">
+				<path>..\Internet\Savefrom helper - shimultechtips.exe</path>
+			</file>
+		</files>
+		<files name="Multimedia">
+			<file name="K-Lite Codec Pack Mega - shimultechtips">
+				<path>..\Multimedia\K-Lite Codec Pack\Silent Install K-Lite Codec Pack Mega - shimultechtips.bat</path>
+				<icon>Icons\K-Lite Codec Pack Mega - shimultechtips.ico</icon>
+			</file>
+			<file name="PotPlayer - shimultechtips">
+				<path>..\Multimedia\PotPlayer\Silently Install PotPlayer - shimultechtips.bat</path>
+				<icon>Icons\PotPlayer - shimultechtips.ico</icon>
+			</file>
+			<file name="VLC Media Player - shimultechtips">
+				<path>..\Multimedia\VLC Media Player\Silently Install VLC Media Player - shimultechtips.bat</path>
+				<icon>Icons\VLC Player - shimultechtips.ico</icon>
+				<runcount>1</runcount>
+				<rundate>2021/11/30 19:41:24</rundate>
+			</file>
+		</files>
+		<files name="Utilities">
+			<file name="7-zip - shimultechtips">
+				<path>..\Utilities\7-zip\7-zip Silent Install Command - shimultechtips.bat</path>
+				<icon>Icons\7-zip - shimultechtips.ico</icon>
+			</file>
+			<file name="DirectX 12 - shimultechtips">
+				<path>..\Utilities\DirectX 12 - shimultechtips.exe</path>
+			</file>
+			<file name="Foxit Reader - shimultechtips">
+				<path>..\Utilities\Foxit Reader\Silently Install Foxit Reader - shimultechtips.bat</path>
+				<icon>Icons\Foxit Reader - shimultechtips.ico</icon>
+			</file>
+			<file name="MS Visual C++ Redistributable Runtimes All-in-One JUL 2022 - shimultechtips">
+				<path>..\Utilities\MS Visual C++ Redistributable Runtimes All-in-One JUL 2022 - shimultechtips.exe</path>
+			</file>
+			<file name="Notepad++ - shimultechtips">
+				<path>..\Utilities\Notepad++ - shimultechtips\Silently Install Notepad++ - shimultechtips.bat</path>
+				<icon>Icons\Notepad++ - shimultechtips.ico</icon>
+			</file>
+			<file name="Supercopier - shimultechtips">
+				<path>..\Utilities\Supercopier - shimultechtips.exe</path>
+			</file>
+			<file name="Temporary Data Deleteor - shimultechtips">
+				<path>..\Utilities\Temporary Data Deleteor - shimultechtips.exe</path>
+				<runcount>3</runcount>
+				<rundate>2022/01/08 20:02:03</rundate>
+			</file>
+			<file name="WinCDEmulator - shimultechtips">
+				<path>..\Utilities\WinCDEmulator - shimultechtips\Install WinCDEmulator Silently.bat</path>
+				<icon>..\Utilities\WinCDEmulator - shimultechtips\WinCDEmulator - shimultechtips.exe</icon>
+			</file>
+			<file name="WinRAR - shimultechtips">
+				<path>..\Utilities\WinRAR\Silently Install WinRAR - shimultechtips.bat</path>
+				<icon>Icons\WinRAR - shimultechtips.ico</icon>
+			</file>
+			<file name="YouCam Perfect - shimultechtips">
+				<path>..\Utilities\YouCam Perfect - shimultechtips.exe</path>
+			</file>
+		</files>
+		<files name="Writing">
+			<file name="Avro Keyboard - shimultechtips">
+				<path>..\Writing\Avro Keyboard - shimultechtips.exe</path>
+			</file>
+			<file name="Bijoy 52 - shimultechtips">
+				<path>..\Writing\Bijoy 52 - shimultechtips.exe</path>
+			</file>
+			<file name="Install Nikosh Fonts - shimultechtips">
+				<path>..\Writing\Install Nikosh Fonts - shimultechtips.exe</path>
+			</file>
+			<file name="Microsoft Office 2007 - shimultechtips">
+				<path>..\Writing\Microsoft Office 2007 - shimultechtips.exe</path>
+			</file>
+		</files>
+	</files>
+	<notes>
+	</notes>
+	<colors>
+		<color name="0">
+			<value>A0A0FFh</value>
+		</color>
+		<color name="1">
+			<value>A0C0FFh</value>
+		</color>
+		<color name="2">
+			<value>A0FFFFh</value>
+		</color>
+		<color name="3">
+			<value>A0FFA0h</value>
+		</color>
+		<color name="4">
+			<value>FFA0A0h</value>
+		</color>
+	</colors>
+	<configurationfile>
+		<backupmode>pbmTemporary</backupmode>
+	</configurationfile>
+	<execution>
+		<count>139</count>
+		<overalltime>18:41:49.490</overalltime>
+	</execution>
+	<general>
+		<executionaction>0</executionaction>
+		<language>english</language>
+		<singleclick>False</singleclick>
+	</general>
+	<history>
+		<usernames>
+		</usernames>
+	</history>
+	<info>
+		<visible>True</visible>
+	</info>
+	<menu>
+		<hotkeysvisible>True</hotkeysvisible>
+	</menu>
+	<mouse>
+		<sensors>
+			<bottom>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottom>
+			<bottomleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomleft>
+			<bottomright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomright>
+			<cornersize>20</cornersize>
+			<left>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</left>
+			<monitor>1</monitor>
+			<right>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</right>
+			<top>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</top>
+			<topleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topleft>
+			<topright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topright>
+		</sensors>
+	</mouse>
+	<note>
+		<alarm>
+			<notify>
+				<autoclose>False</autoclose>
+				<duration>10</duration>
+				<sound></sound>
+			</notify>
+			<recenttime>2020/07/22 09:26:40</recenttime>
+		</alarm>
+		<defaultcolor>A0FFFFh</defaultcolor>
+		<style>0</style>
+		<visible>True</visible>
+		<wordbreak>1</wordbreak>
+	</note>
+	<panel>
+		<closemode>0</closemode>
+		<hotkey>False</hotkey>
+		<hotkeyclose>True</hotkeyclose>
+		<hotkeycode>15</hotkeycode>
+		<hotkeymodifier>7</hotkeymodifier>
+		<pageindex>0</pageindex>
+		<position>1</position>
+		<showonstartup>True</showonstartup>
+		<staticsize>True</staticsize>
+		<title>Install One By One - shimultechtips</title>
+	</panel>
+	<search>
+		<allusersstartmenu>True</allusersstartmenu>
+		<colorize>True</colorize>
+		<colors>
+			<allusersstartmenu>0080FFh</allusersstartmenu>
+			<currentuserstartmenu>40A000h</currentuserstartmenu>
+			<pstart>FF4040h</pstart>
+		</colors>
+		<currentuserstartmenu>True</currentuserstartmenu>
+		<includemode>0</includemode>
+		<pstart>True</pstart>
+		<sort>0</sort>
+	</search>
+	<style>
+		<additionaltextcolor>000000h</additionaltextcolor>
+		<backgroundimage></backgroundimage>
+		<captioncolor>000000h</captioncolor>
+		<iconsize>0</iconsize>
+		<iteminfomode>2</iteminfomode>
+	</style>
+	<tray>
+		<doubleclick>1</doubleclick>
+		<hotkey>False</hotkey>
+		<hotkeycode>12</hotkeycode>
+		<hotkeymodifier>4</hotkeymodifier>
+		<hover>0</hover>
+		<iconimage>0</iconimage>
+		<iconvisibility>0</iconvisibility>
+		<leftclick>2</leftclick>
+	</tray>
+	<window>
+		<main>
+			<position>
+				<x>635</x>
+				<y>266</y>
+			</position>
+			<size>
+				<x>650</x>
+				<y>500</y>
+			</size>
+		</main>
+	</window>
+</start>

@@ -1,0 +1,484 @@
+<!--
+  Installer
+-->
+<!DOCTYPE html>
+
+<head>
+<title> $ - Shimul's Installable Program's Selector - $ </title>
+<HTA:Application
+  ID = "SIPS"
+  Version = "1.4"
+  ApplicationName = "Shimul's Installable Program's Selector"
+  Icon = "Icons/SIPS - shimultechtips.ico"
+  SingleInstance = "Yes"
+  WindowsState = "Normal"
+  Caption = "Yes"
+  MaximizeButton = "No"
+  MinimizeButton = "Yes"
+  ShowInTaskbar = "Yes"
+  SysMenu = "Yes"
+  ContextMenu = "No"
+  Navigable = "No"
+  Selection = "Yes"
+  Border = "Thin"
+  BorderStyle = "Normal"
+  InnerBorder = "No"
+  Scroll = "Yes"
+  ScrollFlat = "No"
+/>
+</head>
+<style type="text/css">
+body {
+  background-color:#494D51;
+  margin:0 5px;
+}
+.tittle {
+  font-size:13px;
+  font-weight:Bold;
+  font-family:Arial;
+  color:#FFFFFF;
+}
+.c1 {
+  background-color:555657;
+  width:620px;
+  font-size:12px;
+  font-weight:Bold;
+  font-family:Arial;
+  color:#FFFFFF;
+}
+.c3 {
+  cursor:hand;
+  font-size:11px;
+  font-weight:Bold;
+  font-family:Verdana;
+  color:#FFFFFF;
+}
+.c10 {
+  font-size:18px;
+  font-weight:Bold;
+  font-family:Arial;
+  color:#02d8f1;
+}
+.display {
+  height:35px;
+  background-color:555657;
+  font-size:12px;
+  font-family:Verdana;
+  color:#FFFFFF;
+}
+.display blink {
+  font-weight:Bold;
+font-family:Verdana;
+  color:#03eedb;
+}
+.display span {
+  font-size:11px;
+  font-family:Verdana;
+  color:#FFFFFF;
+}
+button {
+  height:24px;
+  cursor:hand;
+  font:12px;
+  font-weight:bold;
+  font-family:Arial;
+  color:#FFFFFF;
+  filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr="#B4584C",EndColorStr="#C46857");
+  border:5px
+}
+.button_hover {
+  filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#991D06',EndColorStr='#CA2304');
+}
+</style>
+<script language="JavaScript">
+//-> Resize And Place In Approx Center
+var W = 660, H = 520;
+window.resizeTo(W,H);
+window.moveTo(screen.availWidth/2-(W/2),screen.availHeight/2-(H/2));
+//-> Objects For Runtime
+var Act = new ActiveXObject("Wscript.Shell");
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var Wmi = GetObject("winmgmts:{impersonationLevel=impersonate}!\\\\.\\root\\cimv2");
+//-> Runtime Varible
+var c34 = String.fromCharCode(34);
+var HtaPath = SIPS.commandLine.replace(c34,"");
+var basepath = new Array;
+var count = 15;
+//-> Body OnLoad Function
+window.onload=function() {
+  basepath = HtaPath.split('\\');
+  basepath.pop();
+  basepath = basepath.join('\\');
+  Act.CurrentDirectory = basepath;
+  blink(0.7);
+  countdown();
+}
+//-> Stop F5 From Closing HTA
+document.onkeydown=function() {
+  if(event.keyCode==116) {
+    event.keyCode=0;
+    event.cancelBubble=true;
+    return false;
+  }
+}
+//-> Blinking Text for <blink>*</blink> tag
+function blink(speed) {
+  if (speed) {
+    if (document.getElementsByTagName('blink'))
+      setInterval("blink()", speed*1000);
+    return;
+  }
+  var blink = document.getElementsByTagName('blink');
+  for (var i=0; i<blink.length; i++) {
+    blink[i].style.visibility = blink[i].style.visibility == "" ? "hidden" : "";
+  }
+}
+//-> Countdown
+function countdown() {
+  if (count==0) {
+    submit();
+    return;
+  }
+  display.innerHTML="<b>Default Action in: "+count+" Seconds</b><br><span>Move the mouse pointer over a Checkbox to view the Informations or to cancel the Countdown.</span>";
+  count = count - 1;
+  cdt=setTimeout("countdown()",1000);
+}
+//-> Function For Default Action Cancel
+function DefaultActionCancel() {
+  display.innerHTML="<font color=\"#FFFFFF\"><b>$ - Default Action Cancel - $</b></font><br><span>Move the mouse pointer over a Checkbox to Select Or view the Informations.";
+}
+//-> Toggles Disabled = True Or False = L
+function cbxoff(L) {
+  for (var k=0;k<cbo.length;k++) {
+    cbo[k].disabled=L;
+  }
+}
+//-> Hack To Pause The Script
+function pause(t) {
+  var VBS = Act.ExpandEnvironmentStrings("%Temp%\\VBScriptTimeout.vbs");
+  var Ts = fso.CreateTextFile(VBS);
+  Ts.Write("Wscript.Sleep("+t+")");
+  Ts.Close();
+  Act.Run(VBS,1,true);
+  fso.DeleteFile(VBS);
+}
+//-> Process Only Checked Checkboxes
+function submit() {
+  cbxoff(true);
+  clearTimeout(cdt);
+  for (var i = 0; i < cbo.length; i++) {
+    if (cbo[i].value==null==false && cbo[i].checked) {
+      try {
+        display.innerHTML=(cbo[i].indicator);
+        pause(3000);
+        Act.Run(cbo[i].value.split("%CurDir%").join(basepath),1,true);
+        pause(3000);
+      }
+      catch(e) {
+        alert("COULD NOT EXECUTE:" + '\n' + cbo[i].value.split("%CurDir%").join(basepath));
+      }
+    }
+  }
+  display.innerHTML="<font color=\"#009900\"><b>[-> Finished <-]</b></font>";
+  pause(4000);
+  window.close();
+}
+//-> Close HTA
+function closehta() {
+  var Q=Wmi.ExecQuery("SELECT * FROM Win32_Process")
+  for (var e=new Enumerator(Q); !e.atEnd(); e.moveNext()) {
+    var p = e.item();
+    if (p.CommandLine==null==false && p.name =="mshta.exe") {
+      var a = p.commandLine.replace('"',"")
+      var b = p.ExecutablePath + HtaPath
+      if (a.length==b.length+3==true) {
+         TKill(p.ProcessId);
+      }
+    }
+  }
+}
+//-> Kills ProcessID
+function TKill(K) {
+  var Q=Wmi.ExecQuery("SELECT * FROM Win32_Process Where ProcessID='"+K+"'")
+  for (var e=new Enumerator(Q); !e.atEnd(); e.moveNext()) {
+    var p = e.item();
+    p.Terminate();
+  }
+}
+</script>
+<body onbeforeunload="closehta();">
+
+<table width="100%" border="0">
+  <td valign="top">
+ <tr>
+      <td class="c10" align="center">
+      $ - Modified By Shimul Tech Tips Team - $
+      </td>
+ </tr>
+ </table>
+
+<table width="100%" class="tittle">
+  <td align="center">$ - Select the options that you want to change from the default choice below - $
+  <br>
+  $ - When the Counter is 0 and nothing has been changed then the default settings will be run - $</td>
+</table>
+<table width="100%" align="center" border="1">
+  <td valign="top">
+    <table>
+    
+     <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Utilities\WinRAR\WinRAR Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> WinRAR <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Archive (ZIP, RAR, TAR etc) Opener And Extractor.";'
+          onmouseout="DefaultActionCancel();" checked></input>
+          01. WinRAR.
+          </td>
+          </tr>
+		  
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Internet\AnyDesk\AnyDesk Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> AnyDesk. <br> <blink>Please wait...</blink> "
+          onmouseover='clearTimeout(cdt);display.innerHTML="Best Remote Desktop Software.";'
+          onmouseout="DefaultActionCancel();" checked></input> 
+          02. AnyDesk.
+          </td>
+          </tr>
+          
+      <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Internet\Google Chrome\Google Chrome Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Google Chrome <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="A Free Web Browser That You Need The Most..";'
+          onmouseout="DefaultActionCancel();" checked></input>
+          03. Google Chrome.
+          </td>
+          </tr>
+		 
+	
+      <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='CMD /c TASKKILL /F /IM IDMan.exe & TASKKILL /F /IM IEMonitor.exe & "..\Internet\Internet Download Manager(IDM)\Internet Download Manager(IDM) - shimultechtips.exe" /skipdlgs & explorer "..\Internet\Internet Download Manager(IDM)\"'
+          indicator="<b>Installing:</b> Internet Download Manager <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Downloader In The World";'
+          onmouseout="DefaultActionCancel();" checked></input>
+          04. Internet Download Manager.
+          </td>
+          </tr>	
+          
+      <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Multimedia\PotPlayer\PotPlayer Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Potplayer <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Video & Audio Player In The World";'
+          onmouseout="DefaultActionCancel();" checked></input>
+          05. Potplayer.
+          </td>
+          </tr>
+          
+          <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Multimedia\K-Lite Codec Pack Mega\K-Lite Codec Pack Mega Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> K-Lite Codec Pack Mega <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="Installs K-Lite Codec Pack Mega Without MPC";'
+          onmouseout="DefaultActionCancel();" checked></input>
+          06. K-Lite Codec Pack Mega.
+          </td>
+          </tr> 
+          
+          <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Internet\qBittorrent\qBittorrent Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> qBittorrent <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Ever Torrent Client For Free.";'
+          onmouseout="DefaultActionCancel();" checked></input>
+          07. qBittorrent.
+          </td>
+          </tr>  
+          
+      <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Utilities\Supercopier - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Supercopier <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Copier Ever.";'
+          onmouseout="DefaultActionCancel();" checked></input>
+          08. Supercopier.
+          </td>
+          </tr> 
+    
+	  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Writing\Avro Keyboard\Avro Keyboard Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Avro Keyboard <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="A free Bangla Writing Software.";'
+          onmouseout="DefaultActionCancel();" checked></input>
+          09. Avro Keyboard.
+          </td>
+          </tr>
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Utilities\Visual C++ Redist AIO\Visual C++ Redist AIO Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> MS Visual C++ Redistributable Runtimes. <br> <blink>Please wait...</blink> "
+          onmouseover='clearTimeout(cdt);display.innerHTML="MS Visual C++ Redistributable Runtimes.";'
+          onmouseout="DefaultActionCancel();" checked></input> 
+          10. MS Visual C++ Redistributable Runtimes.
+          </td>
+          </tr>
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Utilities\DirectX 12\DirectX 12 Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> DirectX 12. <br> <blink>Please wait...</blink> "
+          onmouseover='clearTimeout(cdt);display.innerHTML="DirectX Support.";'
+          onmouseout="DefaultActionCancel();" checked></input> 
+          11. DirectX 12.
+          </td>
+          </tr>
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Utilities\Foxit Reader\Foxit Reader Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Foxit Reader <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="A Free Tool That Can Open PDF FIles.";'
+          onmouseout="DefaultActionCancel();"></input>
+          12. Foxit Reader.
+          </td>
+          </tr>
+      
+    </table>
+  
+  <td valign="top">
+  
+  <table>
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Writing\Microsoft Office 2007\Microsoft Office 2007 Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> MS Office 2007 <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Suite For Writing What You Think & For Your Office.";'
+          onmouseout="DefaultActionCancel();"></input>
+          13. MS Office 2007.
+          </td>
+          </tr>
+          
+      <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Internet\Mozilla Firefox\Mozilla Firefox Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Mozilla Firefox <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="A Free Web Browser That You Need The Most.";'
+          onmouseout="DefaultActionCancel();"></input>
+          14. Mozilla Firefox.
+          </td>
+          </tr>			  
+		  
+		<tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"Pin Programs To The TaskBar\Pin Programs To The TaskBar - shimultechtips.bat"'
+          indicator="<b>Pinning:</b> Programs To The TaskBar. <br> <blink>Please wait...</blink> "
+          onmouseover='clearTimeout(cdt);display.innerHTML="Pins Programs To The TaskBar.";'
+          onmouseout="DefaultActionCancel();"></input> 
+          15. Pin Programs To The Taskbar.
+          </td>
+          </tr>		  
+		  
+      <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Multimedia\VLC Media Player\VLC Media Player Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> VLC Media Player <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Video & Audio Player In The World";'
+          onmouseout="DefaultActionCancel();"></input>
+          16. VLC Media Player.
+          </td>
+          </tr>	
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Utilities\YouCam Perfect\YouCam Perfect Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> YouCam Perfect. <br> <blink>Please wait...</blink> "
+          onmouseover='clearTimeout(cdt);display.innerHTML="Best Camera Software.";'
+          onmouseout="DefaultActionCancel();"></input> 
+          17. YouCam Perfect.
+          </td>
+          </tr>
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Writing\Bijoy 52\Bijoy 52 Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Bijoy 52 <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="A Well Known Paid Bangla Writing Software.";'
+          onmouseout="DefaultActionCancel();"></input>
+          18. Bijoy.
+          </td>
+          </tr>
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Writing\Fonts\Fonts Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Fonts <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="Fonts For Free.";'
+          onmouseout="DefaultActionCancel();"></input>
+          19. Install Fonts.
+          </td>
+          </tr>
+		  
+		<tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Graphics\Photoshop\Adobe Photoshop Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Photoshop CC 2019 Or CS 8 <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Photo Editor In The World.";'
+          onmouseout="DefaultActionCancel();"></input>
+          20. Photoshop.
+          </td>
+          </tr>
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Graphics\Illustrator\Adobe Illustrator Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Illustrator CC 2019 Or CS 8 <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Vector Image Creator In The World.";'
+          onmouseout="DefaultActionCancel();"></input>
+          21. Illustrator.
+          </td>
+          </tr>
+		  
+		  <tr>
+        <td class="c1">
+        <input type="checkbox" id="cbo" value='"..\Antivirus\ESET Security Silent Installer - shimultechtips.exe"'
+          indicator="<b>Installing:</b> Eset Security <br> <blink>Please wait...</blink>"
+          onmouseover='clearTimeout(cdt);display.innerHTML="The Best Antivirus In The World.";'
+          onmouseout="DefaultActionCancel();"></input>
+          22. Eset Security.
+          </td>
+          </tr>
+		  
+		  <td class="c1">
+		  ------------------------------------------------------------------------
+          </td>
+          </tr>
+		  
+		  <td class="c1">
+		  $$$$$$---------- Minimal Softwares ----------$$$$$$
+          </td>
+          </tr>
+ 
+      
+    </table>
+	</td>
+  
+  <tr>
+    <td colspan="3" align="center" id="display" class="display">
+	</td>
+  </tr>
+ </table> 
+
+
+<table width="60%" align="center" style="margin:8px 0px 0px 0px;">
+  <tr>
+    <td align="center"><button type="button" style="width:100px;" onmouseover='this.className="button_hover";' onmouseout='this.className="";' onclick="submit();">Install Selected</button></td>
+  </tr>
+</table>
+</body>
+<html>
