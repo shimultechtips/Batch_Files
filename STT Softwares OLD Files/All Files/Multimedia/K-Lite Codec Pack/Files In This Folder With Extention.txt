@@ -1,0 +1,9 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+K-Lite Codec Pack Mega - shimultechtips.exe
+Silent Install K-Lite Codec Pack Mega - shimultechtips.bat
+Unattended Settings - shimultechtips.ini
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

@@ -1,0 +1,10 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+rarreg.key
+Silently Install WinRAR - shimultechtips.bat
+WinRAR-x64-shimultechtips.exe
+WinRAR-x86-shimultechtips.exe
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

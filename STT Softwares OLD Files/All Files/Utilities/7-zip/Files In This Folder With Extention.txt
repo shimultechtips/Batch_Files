@@ -1,0 +1,10 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+7-zip Settings - shimultechtips.exe
+7-zip Silent Install Command - shimultechtips.bat
+7-zip x64 - shimultechtips.exe
+7-zip x86 - shimultechtips.exe
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

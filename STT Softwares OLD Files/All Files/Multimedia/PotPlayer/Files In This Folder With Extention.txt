@@ -1,0 +1,10 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+x64\
+x86\
+Potplayer Settings - shimultechtips.exe
+Silently Install PotPlayer - shimultechtips.bat
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

@@ -1,0 +1,9 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+Foxit Reader Plugins\
+Foxit Reader - shimultechtips.exe
+Silently Install Foxit Reader - shimultechtips.bat
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

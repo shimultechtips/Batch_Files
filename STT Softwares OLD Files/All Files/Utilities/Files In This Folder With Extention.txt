@@ -1,0 +1,16 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+7-zip\
+Foxit Reader\
+Notepad++ - shimultechtips\
+WinCDEmulator - shimultechtips
+WinRAR\
+DirectX 12 - shimultechtips.exe
+MS Visual C++ Redistributable Runtimes All-in-One JUL 2022 - shimultechtips.exe
+Supercopier - shimultechtips.exe
+Temporary Data Deleteor - shimultechtips.exe
+YouCam Perfect - shimultechtips.exe
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

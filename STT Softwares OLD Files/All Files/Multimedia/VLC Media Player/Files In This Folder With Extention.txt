@@ -1,0 +1,9 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+Silently Install VLC Media Player - shimultechtips.bat
+VLC Media Player x64 - shimultechtips.exe
+VLC Media Player x86 - shimultechtips.exe
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

@@ -1,0 +1,9 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+Google Chrome x64 - shimultechtips.exe
+Google Chrome x86 - shimultechtips.exe
+Silently Install Google Chrome - shimultechtips.bat
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

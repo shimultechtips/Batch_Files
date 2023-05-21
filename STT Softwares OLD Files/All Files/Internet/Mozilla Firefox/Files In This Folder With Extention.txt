@@ -1,0 +1,8 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+x64\
+x86\
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

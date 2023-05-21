@@ -1,0 +1,9 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+Notepad++ x64 - shimultechtips.exe
+Notepad++ x86 - shimultechtips.exe
+Silently Install Notepad++ - shimultechtips.bat
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website

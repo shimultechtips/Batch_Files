@@ -1,0 +1,9 @@
+Files In This Folder With Extention:
+--------------------------------------------------
+qBittorrent x64 - shimultechtips.exe
+qBittorrent x86 - shimultechtips.exe
+Silently Install qBittorrent - shimultechtips.bat
+
+--------------------------------------------------
+Created By Shimul Tech Tips Team......
+shimultechtips.wixsite.com/website
