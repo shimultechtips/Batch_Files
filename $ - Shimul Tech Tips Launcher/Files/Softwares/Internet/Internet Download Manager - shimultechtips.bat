@@ -1,1 +1,0 @@
-start https://crackingpatching.com/2021/01/idm-crack-patch.html

@@ -1,1 +1,0 @@
-start https://ftp.opera.com/pub/opera/desktop/

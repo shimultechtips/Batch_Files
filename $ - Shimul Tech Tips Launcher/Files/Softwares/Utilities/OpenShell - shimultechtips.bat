@@ -1,1 +1,0 @@
-start https://github.com/Open-Shell/Open-Shell-Menu/releases

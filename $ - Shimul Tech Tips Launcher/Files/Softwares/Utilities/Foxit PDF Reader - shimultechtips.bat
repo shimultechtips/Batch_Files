@@ -1,1 +1,0 @@
-start https://www.foxit.com/downloads/pdf-reader-thanks.html?product=Foxit-Reader&platform=Windows&version=&package_type=&language=English&formId=download-reader

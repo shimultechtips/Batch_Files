@@ -1,1 +1,0 @@
-start https://www.google.com/intl/en/chrome/?standalone=1
